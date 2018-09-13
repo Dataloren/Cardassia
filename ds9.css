@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Cardassian-StarTrek-canon-based';    src:url('https://raw.githubusercontent.com/Dataloren/test-repository/master/Cardassian-StarTrek-canon-based.ttf.woff') format('woff'),        url('https://raw.githubusercontent.com/Dataloren/test-repository/master/Cardassian-StarTrek-canon-based.ttf.svg') format('svg'),        url('https://raw.githubusercontent.com/Dataloren/test-repository/master/Cardassian-StarTrek-canon-based.ttf.eot'),        url('https://raw.githubusercontent.com/Dataloren/test-repository/master/Cardassian-StarTrek-canon-based.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+   font-family: default;
+   background:url(' https://raw.githubusercontent.com/Dataloren/test-repository/master/stars.jpg');
+}
+
+body :hover {
+  font-family: Cardassian-StarTrek-canon-based;
+}
+
+
+ul .list-group-item {
+  background-color: transparent;
+}
+
+li {
+  font-size:18px
+}
+
+h2 {
+  padding-top: 3%;
+}
+
+.row {
+  margin: 0;
+}
+
+.jumbotron {
+  background: transparent;
+  color: grey;
+  }
+
+.jumbotron h3 {
+  margin-top:5%;
+  text-align: center;
+}
+
+.blueprint {
+  background: #B0C4DE;
+  opacity: 0.5;
+  text-align: center;
+  margin:3%;
+}
+
+.container-vid {
+  margin: 5%;
+}
+
+.custom-container {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.panel-default{
+  background:none;
+  border: none;
+}
+
+
+.container-pic {
+  opacity:0.6;
+  margin-bottom: 5%;
+}
+
+.custom-column p {
+  color: #D3D3D3;
+  font-size: 18px;
+  margin-right: 5% ;
+  margin-left:5%;
+}
+
+.custom-info {
+  color: #D3D3D3;
+  opacity: 0.6;
+  margin-left: 5%;
+  margin-right:5%; 
+  text-align: center;
+}
+
+.custom-text {
+  color: #D3D3D3;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+.container-fluid {
+  opacity: 0.5;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.summary {
+  opacity: 0.4;
+  margin: 5%;
+}
+
+.warning {
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 0.5;
+}
+.custom-button {
+  opacity: 0.5;
+  margin-left: 5%;
+  margin-right: 5%;
+}
